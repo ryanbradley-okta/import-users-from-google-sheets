@@ -1,9 +1,9 @@
 {
    "name": "import-users-from-google-sheets",
-   "title": "Basic Reporting with Google Sheets",
-   "description": "Many organizations have custom, org-specific needs to report on particular lifecycle events and share that data with others in the organization. Okta's System Log is powerful but limited to Okta admins, and also does not allow for scheduled reports. This workflow demonstrates building a custom report in an online spreadsheet (using a "user suspended" event, and then sharing that report with stakeholders when the event occurs.",
+   "title": "Importing Users from Google Sheets",
+   "description": "Often, there are disconnected user populations like contractors, or certain offices that need to be imported into Okta. A CSV or Flat File is the easiest way to create those users in Okta. This flow walks you through how to bring in users from Google Sheets and how to use For Each loops. This flow reads all users in a specified Google sheet and, each week on Monday at 6 am, tries to create them in Okta.",
    "connectors": [
-      "okta", "google sheets", "gmail"
+      "okta", "google sheets"
    ],
    "links": [
       {
